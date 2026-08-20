@@ -1,0 +1,11 @@
+{
+  "faceValue": "1000.00",
+  "couponRate": "0.0005",
+  "allocatedQuantity": 100,
+  "firstPaymentDate": "2026-06-11",
+  "weekendDate": "2026-06-13",
+  "maturityDate": "2026-06-25",
+  "weekendMaturityDate": "2026-06-27",
+  "expectedDailyCoupon": "50.00",
+  "expectedPrincipal": "100000.00"
+}

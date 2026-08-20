@@ -1,0 +1,24 @@
+{
+  "validFileName": "BONDS_20260601_001.csv",
+  "validIsin": "MYBND2600001",
+  "validCsv": "isin,issuerName,bondName,currency,faceValue,couponRate,maturityDate,totalSize,bookOpenDate,bookCloseDate\nMYBND2600001,ACME Corp,ACME 2026 Senior Notes,MYR,1000.00,0.0005,2026-06-05,1000000,2026-05-05,2026-05-10\n",
+  "invalidCases": [
+    "missing-header",
+    "duplicate-isin",
+    "invalid-currency",
+    "face-value-too-precise",
+    "coupon-rate-out-of-range",
+    "total-size-too-large",
+    "book-open-after-close",
+    "maturity-before-book-close",
+    "malformed-row",
+    "duplicate-file-name",
+    "invalid-file-name",
+    "invalid-isin",
+    "empty-issuer-name",
+    "long-bond-name",
+    "invalid-date",
+    "non-integer-total-size",
+    "invalid-iso-currency"
+  ]
+}

@@ -1,0 +1,8 @@
+node_modules/
+dist/
+reports/
+test-results/
+features-gen/
+allure-results/
+.env
+*.log

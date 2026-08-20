@@ -1,0 +1,23 @@
+{
+  "bond": {
+    "isin": "MYBND2600099",
+    "faceValue": "1000.00",
+    "couponRate": "0.0005",
+    "totalSize": 100000,
+    "bookOpenDate": "2026-06-01",
+    "bookCloseDate": "2026-06-10",
+    "maturityDate": "2026-06-25"
+  },
+  "subscriptions": [
+    { "userId": "INV-001", "quantity": 40000 },
+    { "userId": "INV-002", "quantity": 30000 },
+    { "userId": "INV-003", "quantity": 50000 }
+  ],
+  "bondIsin": "MYBND2600001",
+  "openDate": "2026-05-05",
+  "closeDate": "2026-05-10",
+  "totalSize": 1000000,
+  "validQuantity": 100,
+  "invalidQuantities": [0, -1, 1.5],
+  "users": ["INV-001", "INV-002", "INV-003", "INV-004", "INV-005"]
+}

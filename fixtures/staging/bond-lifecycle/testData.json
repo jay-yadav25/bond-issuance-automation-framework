@@ -1,0 +1,20 @@
+{
+  "bond": {
+    "isin": "MYBND2600099",
+    "issuerName": "MegaCorp",
+    "bondName": "MEGA 2026 Notes",
+    "currency": "MYR",
+    "faceValue": "1000.00",
+    "couponRate": "0.0005",
+    "maturityDate": "2026-06-25",
+    "totalSize": 100000,
+    "bookOpenDate": "2026-06-01",
+    "bookCloseDate": "2026-06-10"
+  },
+  "subscriptions": [
+    { "userId": "INV-001", "quantity": 40000 },
+    { "userId": "INV-002", "quantity": 30000 },
+    { "userId": "INV-003", "quantity": 50000 }
+  ],
+  "expectedAllocations": [33333, 25000, 41666]
+}
