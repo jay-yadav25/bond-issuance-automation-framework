@@ -31,8 +31,6 @@ acting user via the `X-User-Id` header.
 
 This repository contains a Playwright + TypeScript + Playwright-BDD starter for the BIS requirements above. It uses Page Object Model classes for UI interactions, JSON fixtures, and pure TypeScript utilities for deterministic business-rule assertions.
 
-For the complete requirement-by-requirement mapping, see [REQUIREMENTS_TRACEABILITY.md](REQUIREMENTS_TRACEABILITY.md).
-
 ### Structure
 
 ```text
